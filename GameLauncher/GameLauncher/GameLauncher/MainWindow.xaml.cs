@@ -77,7 +77,7 @@ namespace GameLauncher
                 try
                 {
                     WebClient webClient = new WebClient();
-                    Version onlineVersion = new Version(webClient.DownloadString("https://drive.google.com/uc?export=download&id=1RyqlUkN8vBuSmi8LLsLWX9uR1ri2HpUZ"));
+                    Version onlineVersion = new Version(webClient.DownloadString("https://github.com/D33Force/Tekhael/blob/LauncherAdded/Version.txt"));
 
                     if (onlineVersion.IsDifferentThan(localVersion))
                     {
@@ -112,7 +112,7 @@ namespace GameLauncher
                 else
                 {
                     Status = LauncherStatus.downloadingGame;
-                    _onlineVersion = new Version(webClient.DownloadString("https://drive.google.com/uc?export=download&id=1RyqlUkN8vBuSmi8LLsLWX9uR1ri2HpUZ"));
+                    _onlineVersion = new Version(webClient.DownloadString("https://github.com/D33Force/Tekhael/blob/LauncherAdded/Version.txt"));
                 }
                 webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
                 webClient.DownloadFileAsync(new Uri("https://github.com/D33Force/Tekhael/raw/LauncherAdded/Build.zip"), gameZip, _onlineVersion);
