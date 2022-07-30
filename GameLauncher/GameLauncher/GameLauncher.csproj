@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>images\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\icon.ico" />
+    <None Remove="images\LauncherBG.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\icon.ico" />
+    <Resource Include="images\LauncherBG.jpg" />
+  </ItemGroup>
+
+</Project>
