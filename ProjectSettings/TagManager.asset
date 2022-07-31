@@ -3,16 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Camera
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Foreground
   - Water
   - UI
   - 
-  - 
+  - CharAnimation
   - 
   - 
   - 
@@ -38,6 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: CharAnimation
+    uniqueID: 120292573
+    locked: 0
+  - name: Foreground
+    uniqueID: 1715907217
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
