@@ -3,3 +3,6 @@ Logs/
 UserSettings/
 /*.csproj
 /*.sln
+/*.vsconfig
+.vs/
+backup/
