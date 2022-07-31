@@ -1,5 +1,0 @@
-C:\Users\Dee\Documents\TestRuns\GameLauncher.exe
-C:\Users\Dee\Documents\TestRuns\GameLauncher.dll
-C:\Users\Dee\Documents\TestRuns\GameLauncher.deps.json
-C:\Users\Dee\Documents\TestRuns\GameLauncher.runtimeconfig.json
-C:\Users\Dee\Documents\TestRuns\GameLauncher.pdb
